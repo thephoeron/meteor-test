@@ -1,6 +1,6 @@
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
-    return "Welcome to src.";
+    return "Welcome to Smeg.";
   };
 
   Template.hello.events({
@@ -8,6 +8,10 @@ if (Meteor.isClient) {
       // template data, if any, is available in 'this'
       if (typeof console !== 'undefined')
         console.log("You pressed the button");
+    },
+    'click a' : function () {
+      if (typeof console !== 'undefined')
+        console.log("You pressed the other button...");
     }
   });
 }
