@@ -20,6 +20,10 @@
 [LISTEN]: http://www.postgresql.org/docs/9.0/static/sql-listen.html
 [js2coffee]: http://js2coffee.org/
 
+# Live Updates to Meteor from Postgres
+
+From: http://www.lshift.net/blog/2013/02/25/live-updates-to-meteor-from-postgres
+
 I’ve been playing around with [Meteor][] recently for an internal LShift
 project in which I wanted the browser to have a read-only live view onto
 some timetracking data from [TimeTracker][] as it changes. When a developer records time
